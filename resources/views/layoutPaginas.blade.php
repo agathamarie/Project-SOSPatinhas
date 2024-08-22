@@ -30,12 +30,20 @@
             <img src="../images/Logo_Footer.png" width="201" height="111" alt="">
         </a>
         <ul class="footer-links">
-            <li><a href="blog">Blog</a></li>
-            <li><a href="quemSomos">Quem Somos</a></li>
-            <li><a href="comoAjudar">Como Ajudar</a></li>
-            <li><a href="eventos">Eventos</a></li>
-            <li><a href="adoção">Adoção</a></li>
+            <a href="blog">Blog</a>
+            <a href="quemSomos">Quem Somos</a>
+            <a href="comoAjudar">Como Ajudar</a>
+            <a href="eventos">Eventos</a>
+            <a href="adoção">Adoção</a>
+            <img href="#" src="../images/facebook.png" alt="" width="25">
+            <img src="../images/instagram.png" alt="" width="25">
         </ul>
+        <ul class="footer-links-bottom">
+            <a href="#">Acessibilidade</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos e Condições</a>
+        </ul>
+        
     </footer>
 </body>
 </html>
