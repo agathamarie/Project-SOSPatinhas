@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout</title>
     <link rel="stylesheet" href="../css/layoutPaginas.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
 </head>
 <body>
     <nav class="navbar">
@@ -41,15 +42,23 @@
             <a href="comoAjudar">Como Ajudar</a>
             <a href="eventos">Eventos</a>
             <a href="adoção">Adoção</a>
-            <img href="#" src="../images/facebook.png" alt="" width="25">
-            <img src="../images/instagram.png" alt="" width="25">
+        </ul>  
+
+        <ul class="footer-links-img">
+            <a href="#">
+            <img src="../images/facebook.png" alt="" width="25">
+            </a>
+            <a href="#">
+                <img src="../images/instagram.png" alt="" width="25">
+            </a>
         </ul>
+        
         <ul class="footer-links-bottom">
             <a href="#">Acessibilidade</a>
             <a href="#">Política de Privacidade</a>
             <a href="#">Termos e Condições</a>
         </ul>
-        
+            
     </footer>
 </body>
 </html>
