@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar">
         <a class="navbar-logo" href="paginaInicio">
-            <img src="../images/Logo_Navbar.png" width="48" height="48" class="d-inline-block align-top" alt="">
+            <img src="../images/Logo_Navbar.png" width="50" height="50" class="d-inline-block align-top" alt="">
         </a>
 
         <ul class="nav-links">.
@@ -24,6 +24,12 @@
             <img src="../images/Icon_Login.png" width="48" height="48" alt="">
         </a>
     </nav>
+
+
+    <section class="corpo container" >
+        <p>aaaa</p>
+    </section>
+
 
     <footer>
         <a class="footer-logo" href="paginaInicio">
