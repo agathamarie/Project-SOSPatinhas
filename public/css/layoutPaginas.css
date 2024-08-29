@@ -5,6 +5,9 @@
 }
 body{
     background-color: rgb(198, 225, 196);
+    background-image: url("../images/Patinhas.png");
+    
+    
 }
 
 nav{
@@ -16,35 +19,63 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.navbar-logo{
+    padding: 10px 10px;
+}
 .nav-links a{
     text-decoration: none;
     color: black;
-    
+    padding: 8px 16px;
     margin-left: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
 }
-.nav-links a:hover, a:active{
-    text-decoration: underline;
-    color: rgb(68, 128, 63);
+.nav-links a:hover, .nav-links a:active{
+    border-bottom: solid #C6E1C4;
 }
+
+
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 12px;
+}
+.corpo{
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
 footer{
     text-align: center;
     padding: 3px;
     background-color: rgb(68, 128, 63);
-    color: white;  
+    color: white;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
+    
+}
+.footer-links img, .footer-logo img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .footer-links-bottom a{
     text-decoration: none;
     color: white;
-    margin-left: 5rem;
-    
+    display: inline;
            
 }
-.footer-links a{
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    display: flex;
-    flex-direction: column; 
-    margin-left: 5rem;
-}
+
 
