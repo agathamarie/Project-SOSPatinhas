@@ -11,6 +11,7 @@
 
     <section class="corpo container" >
         <p>aaaa</p>
+        <p>teste</p>
     </section>
 
     @include('templates.footerUser')
