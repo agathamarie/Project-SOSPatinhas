@@ -64,10 +64,10 @@
 
         <ul class="footer-links-img">
             <a href="#">
-            <img src="../images/facebook.png" alt="" width="25">
+            <img src="../images/facebook_branco.png" alt="" width="25">
             </a>
             <a href="#">
-                <img src="../images/instagram.png" alt="" width="25">
+                <img src="../images/instagram_branco.png" alt="" width="25">
             </a>
         </ul>
         

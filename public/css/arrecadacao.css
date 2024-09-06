@@ -6,6 +6,7 @@
 body{
     background-color: rgb(198, 225, 196);
     background-image: url("../images/Patinhas.png");
+    background-size: 50%;
 }
 .container{
     max-width: 1500px;

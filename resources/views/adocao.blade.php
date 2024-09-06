@@ -10,9 +10,16 @@
     @include('templates.navbarUser')
 
     <section class="corpo container" >
-        <h1>Adote um melhor amigo!</h1>
-        <p>Adotar um animal salva vidas e traz alegria. Muitos cães e gatos esperam por um lar. Ao adotar, você ganha um amigo fiel e combate o abandono. Adote e transforme vidas!</p>
+
+        <section class="top-texts">
+            <h1>Adote um melhor amigo!</h1>
+            <p>Adotar um animal salva vidas e traz alegria. Muitos cães e gatos esperam por um lar. Ao adotar, você ganha um amigo fiel e combate o abandono. Adote e transforme vidas!</p>
+        </section>
         
+        <section class="dropdowns">
+            
+        </section>
+
         <section class="flip-card-grid">
         
             <div class="flip-card">
