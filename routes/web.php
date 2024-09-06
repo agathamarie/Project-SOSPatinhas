@@ -45,3 +45,7 @@ Route::get('/informacaoAnimal', function () {
 Route::get('/quemSomos', function () {
     return view('quemSomos');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
