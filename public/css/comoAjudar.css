@@ -13,10 +13,111 @@ body{
     padding: 12px;
 }
 .corpo{
-    background-color: rgb(255, 255, 255);
-    width: 1500px;
+    color: #fff;
+    background-color: rgb(68, 128, 63);
+    width: 1124px;
+    padding: 389px;
     display: flex;
-    text-align: center;
+    text-align: center; 
     justify-content: center;
     align-items: center;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  
+  .hero img {
+    width: 400px;
+    height: auto;
+  }
+  
+  .hero-text {
+    text-align: left;
+  }
+  
+  .valores {
+    padding: 40px 0;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .pix {
+    padding: 40px 0;
+  }
+  
+  .qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .qrcode img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
