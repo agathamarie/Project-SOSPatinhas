@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="../css/comoAjudar.css">
 </head>
 <body>
+<<<<<<< HEAD:resources/comoAjudar.blade.php
+  <?php
+    include('../templates/navbarUser.php');
+  ?>
+=======
     <?php include('../templates/navbarUser.php')?>
 
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/comoAjudar.php
     <section class="hero">
     <div class="corpo container" >
-        <!-- começei a partir daqui -->
         <img src="../images/valinhos07 1.png" alt="Imagem da ONG Sos Patinhas" style="width: 453px; height: 283px;">
         <div class="hero-text">
         <h2>Ponto de Arrecadação</h2>
@@ -21,7 +26,7 @@
       </div>
     </section>
 
-    <section class="valores">
+    <section class="valores-e-pix">
       <div class="container">
         <h2>Valores para Doação</h2>
         <div class="cards">
@@ -57,24 +62,28 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="pix">
       <div class="container">
-        <h2>Pix QR Code ou CNPJ</h2>
-        <div class="qrcode">
-          <img src="qrcode.png" alt="QR Code para Doação">
-          <p>ChaveCNPJ: XX. XXX. XXX/0001-XX</p>
+          <h2>Pix QR Code ou CNPJ</h2>
+          <div class="qrcode">
+            <img src="../images/imagem_qrcode.png" alt="QR Code para Doação">
+            <p>ChaveCNPJ: XX. XXX. XXX/0001-XX</p>
         </div>
         <div class="info">
           <h3>Sos Patinhas</h3>
-          <p>Conta: 198655-4</p>
-          <p>Agência: 1193</p>
+          <div class="dados-conta">
+            <p>Conta: 198655-4</p>
+            <p>Agência: 1193</p>
         </div>
       </div>
     </section>
   </main>
 
+<<<<<<< HEAD:resources/comoAjudar.blade.php
+  
+  <?php
+    @include('../templates/footerUser.php');
+  ?>
+=======
   <footer>
     <div class="container">
       <p>&copy; 2023 Sos Patinhas</p>
@@ -82,5 +91,6 @@
   </footer>
 
     <?php include('../templates/footerUser.php')?>
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/comoAjudar.php
 </body>
 </html>
