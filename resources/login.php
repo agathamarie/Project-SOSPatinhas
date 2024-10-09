@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    @include('templates.navbarUser')
+    <?php include('../templates/navbarUser.php')?>
     
     <section class="corpo container" >
 
@@ -39,6 +39,6 @@
 
     </section>
         
-    @include('templates.footerUser')
+    <?php include('../templates/footerUser.php')?>
 </body>
 </html>
