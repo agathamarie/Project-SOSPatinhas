@@ -1,14 +1,17 @@
-<div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="../images/Rochele.png" alt="Rochele" style="width:275px;height:362px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Femea</p>
-                        <p>4 anos</p>
-                        <p>Porte Pequeno</p>
-                        <p>Sem Raça Definida</p>
-                        <a href="informacaoAnimal">Adotar!</a>
-                    </div>
-                </div>
-            </div>
+<div class="card-animal">
+    <div class="front-card">
+        <img src="../images/Rochele.png" alt="">
+    </div>
+    <div class="back-card">
+        <header class="header-card">
+            <p><?= $animal['tipo']?></p>
+            <p><?= $animal['sexo']?></p>
+            <p><?= $animal['idade']?></p>
+            <p><?= $animal['porte']?></p>
+            <p><?= $animal['raca']?></p>
+        </header>
+        <footer class="footer-card">
+            <a href="#">Adotar!</a>
+        </footer>
+    </div>
+</div>

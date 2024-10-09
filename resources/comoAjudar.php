@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/comoAjudar.css">
 </head>
 <body>
-    @include('templates.navbarUser')
+    <?php include('../templates/navbarUser.php')?>
 
     <section class="hero">
     <div class="corpo container" >
@@ -81,6 +81,6 @@
     </div>
   </footer>
 
-    @include('templates.footerUser')
+    <?php include('../templates/footerUser.php')?>
 </body>
 </html>

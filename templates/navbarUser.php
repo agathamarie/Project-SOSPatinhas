@@ -33,7 +33,7 @@
 </head>
 <body>
 <nav class="navbar">
-        <a class="navbar-logo" href="paginaInicio">
+        <a class="navbar-logo" href="./paginaInicio.php">
             <img src="../images/Logo_Navbar.png" width="50" height="50" class="d-inline-block align-top" alt="">
         </a>
 

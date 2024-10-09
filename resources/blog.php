@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
+<<<<<<< HEAD:resources/blog.blade.php
     @include('templates.navbarUser')
  
+=======
+    <?php include('../templates/navbarUser.php')?>
+
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/blog.php
     <section class="corpo container" >
         <p>o</p>
     </section>
+<<<<<<< HEAD:resources/blog.blade.php
  
     @include('templates.footerUser')
+=======
+
+    <?php include('../templates/footerUser.php')?>
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/blog.php
 </body>
 </html> -->
  
