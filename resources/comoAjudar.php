@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="../css/comoAjudar.css">
 </head>
 <body>
+<<<<<<< HEAD:resources/comoAjudar.blade.php
   <?php
     include('../templates/navbarUser.php');
   ?>
+=======
+    <?php include('../templates/navbarUser.php')?>
+
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/comoAjudar.php
     <section class="hero">
     <div class="corpo container" >
         <img src="../images/valinhos07 1.png" alt="Imagem da ONG Sos Patinhas" style="width: 453px; height: 283px;">
@@ -73,9 +78,19 @@
     </section>
   </main>
 
+<<<<<<< HEAD:resources/comoAjudar.blade.php
   
   <?php
     @include('../templates/footerUser.php');
   ?>
+=======
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Sos Patinhas</p>
+    </div>
+  </footer>
+
+    <?php include('../templates/footerUser.php')?>
+>>>>>>> c6d1e3392bf42791e98224f9c3a3c3a46766f736:resources/comoAjudar.php
 </body>
 </html>
