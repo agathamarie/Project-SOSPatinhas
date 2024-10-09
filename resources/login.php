@@ -11,16 +11,16 @@
 <body>
     <?php include('../templates/navbarUser.php')?>
     
-    <section class="corpo container" >
+    <section class="corpo-container">
 
         <section class="secao-login">
             <div class="login">
                 <h2>Login</h2>
-                <form action="tela_inicial">
+                <form action="./paginaInicio.php">
                     <input type="email" placeholder="Email">
                     <input type="password" placeholder="Senha">
                     <a href="esqueceu_senha" class="esc_senha">Esqueci a senha</a>
-                    <button type="submit">Login</button>
+                    <button type="submit" value="login">Login</button>
                 </form>
                 <p>Não tem uma conta?<a href="cadastrar_conta">Cadastrar</a></p>
                 <div class="login-social">
@@ -36,7 +36,6 @@
                 <a href="acesso-adm" class="acesso-adm">Acesso Admin</a>
             </div>
         </section>
-
     </section>
         
     <?php include('../templates/footerUser.php')?>

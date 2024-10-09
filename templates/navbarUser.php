@@ -38,11 +38,11 @@
         </a>
 
         <ul class="nav-links">.
-            <a class="link-navbar" href="blog">Blog</a>
-            <a class="link-navbar" href="quemSomos">Quem Somos</a>
-            <a class="link-navbar" href="comoAjudar">Como Ajudar</a>
-            <a class="link-navbar" href="eventos">Eventos</a>
-            <a class="link-navbar" href="adocao">Adoção</a>
+            <a class="link-navbar" href="./blog.php">Blog</a>
+            <a class="link-navbar" href="./quemSomos.php">Quem Somos</a>
+            <a class="link-navbar" href="./comoAjudar.php">Como Ajudar</a>
+            <a class="link-navbar" href="./eventos.php">Eventos</a>
+            <a class="link-navbar" href="./adocao.php">Adoção</a>
         </ul>
         
         <a class="navbar-logo" href="#">

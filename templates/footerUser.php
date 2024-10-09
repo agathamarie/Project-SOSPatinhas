@@ -51,15 +51,15 @@
 </head>
 <body>
     <footer>
-        <a class="footer-logo" href="paginaInicio">
+        <a class="footer-logo" href="./paginaInicio.php">
             <img src="../images/Logo_Footer.png" width="201" height="111" alt="">
         </a>
         <ul class="footer-links">
-            <a href="blog">Blog</a>
-            <a href="quemSomos">Quem Somos</a>
-            <a href="comoAjudar">Como Ajudar</a>
-            <a href="eventos">Eventos</a>
-            <a href="adocao">Adoção</a>
+            <a href="./blog.php">Blog</a>
+            <a href="./quemSomos.php">Quem Somos</a>
+            <a href="./comoAjudar.php">Como Ajudar</a>
+            <a href="./eventos.php">Eventos</a>
+            <a href="./adocao.php">Adoção</a>
         </ul>  
 
         <ul class="footer-links-img">
