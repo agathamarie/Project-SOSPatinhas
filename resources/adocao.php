@@ -57,6 +57,7 @@
 
                 $conexao->close();
             ?>
+        </div>
 
     </section>
     <?php include ('../templates/footerUser.php') ?>

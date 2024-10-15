@@ -33,6 +33,8 @@ body{
 
 
 
+
+
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -41,48 +43,43 @@ body{
   margin-bottom: 3rem;
 }
 
-
-.card-animal {
-  display: block;
-  position: relative;
-  max-width: 262px;
-  background-color: #f2f8f9;
-  border-radius: 4px;
-  padding: 32px 24px;
-  margin: 12px;
-  text-decoration: none;
-  z-index: 0;
-  overflow: hidden;
+.card-animal{
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 300px;
+  height: 400px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .front-card{
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.front-card img{
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .back-card{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f8f8f8;
+  display: none;
   opacity: 0;
-  transition: opacity 0.5s ease;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  transition: opacity 0.3s ease;
+  
 }
 
-.card-animal:hover .back-card{
+.card-animal:hover{
+  background-color: aqua;
+}
+
+.card-animal:hover .front-card {
+  display: none;
+  opacity: 0;
+}
+
+.card-animal:hover .back-card {
+  display: block;
   opacity: 1;
-}
-
-.card-animal:hover .front-card{
-  opacity: 0;
-  transition: transform;
-  transform: scale(21);
 }
